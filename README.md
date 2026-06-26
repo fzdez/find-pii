@@ -4,8 +4,6 @@ A tiny, fast, macOS app that finds and redacts PII from files. No network access
 
 *Built on Swift, with Claude Code; in a supervised, micromanaged way.*
 
-[screenshot: main app window — results table with detected PII]
-
 **Requirements:** macOS 15+
 
 ### [Download from here](https://github.com/fzdez/find-pii/releases/latest)

@@ -10,8 +10,7 @@ A tiny, fast, macOS app that **finds** and **redacts** PII (Personally Identifia
 
 <img width="1019" height="652" alt="Landing screen (in light mode)" src="https://github.com/user-attachments/assets/c41c248e-e106-4621-923f-3997f9fba30d" />
 
-
-<img width="1019" height="652" alt="Results screen (in dark mode)" src="https://github.com/user-attachments/assets/50c0c3b2-1a98-4130-8609-9b159a0ffe1c" />
+<img width="1019" height="652" alt="Results screen (in dark mode)" src="https://github.com/user-attachments/assets/c30d8543-4b81-4b47-8719-94ee3bd2ebdb" />
 
 
 ## Three ways to scan

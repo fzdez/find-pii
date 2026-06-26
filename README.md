@@ -1,18 +1,18 @@
 # Find PII
 
-A tiny, fast, macOS app that finds and redacts PII from files. No network access, no third party dependencies; nothing leaves your device.
+A tiny, fast, macOS app that **finds** and **redacts** PII (Personally Identifiable Information) in files and text. No network access, no third party dependencies; nothing leaves your device.
 
 *Built on Swift, with Claude Code; in a supervised, micromanaged way.*
 
+**[Download from here](https://github.com/fzdez/find-pii/releases/latest)**
+
 **Requirements:** macOS 15+
 
-### [Download from here](https://github.com/fzdez/find-pii/releases/latest)
+<img width="1019" height="652" alt="Landing screen (in light mode)" src="https://github.com/user-attachments/assets/c41c248e-e106-4621-923f-3997f9fba30d" />
 
-## What it does
 
-Finds structured PII, and shows what it found and where. Redact to write a cleaned copy alongside the original, or clean up pasted text before copying it out.
+<img width="1019" height="652" alt="Results screen (in dark mode)" src="https://github.com/user-attachments/assets/50c0c3b2-1a98-4130-8609-9b159a0ffe1c" />
 
-<img width="940" height="652" alt="image" src="https://github.com/user-attachments/assets/d8f27c65-23b1-479b-b0f7-53da6dab798a" />
 
 ## Three ways to scan
 
@@ -20,7 +20,7 @@ Finds structured PII, and shows what it found and where. Redact to write a clean
 - **Right-click in Finder** and choose "Find PII" to send files straight to the app.
 - **Paste text** with ⌘V — PII highlights as you type.
 
-<img width="940" height="652" alt="image" src="https://github.com/user-attachments/assets/d2afbd67-6dff-4c04-b383-ed8240f172a8" />
+<img width="1024" height="655" alt="gif showing pasting text to scan, and redacting PII with a click" src="https://github.com/user-attachments/assets/fdff7522-bf0f-496b-a7fb-a995cbbf7d93" />
 
 
 ## What it detects
@@ -29,12 +29,19 @@ Finds structured PII, and shows what it found and where. Redact to write a clean
 - **Contextual PII (customisable prompt):** using Apple's on-device Foundation Models.
 - **Add a custom word list** if you want specific terms flagged.
 
-<img width="940" height="856" alt="image" src="https://github.com/user-attachments/assets/13a79429-cc52-488d-9e33-c8795a770f62" />
+<img width="1019" height="652" alt="filter settings showing a custom profile" src="https://github.com/user-attachments/assets/542b6207-87c0-421b-8dc6-743c998277a8" />
+
+
+<img width="1019" height="652" alt="filter settings showing a custom word/name list" src="https://github.com/user-attachments/assets/68f10218-bf5d-4168-b681-d2d9db383e4f" />
 
 
 ## Private and secure
 
-Nothing leaves your device. No network access; OS-enforced. The kernel blocks all outbound connections.
+Nothing leaves your device. No network access; OS-enforced. The kernel blocks all outbound connections. 
+
+This also means the app can't check for updates.
+
+No third party libraries or dependencies used. 
 
 ---
 
@@ -67,21 +74,18 @@ Find PII is **not notarised by Apple** (notarisation requires a paid Apple Devel
 
 3. Press Return, then double-click **Find PII** — it now opens normally.
 
-**Still blocked?** If your Mac is managed by an IT department, security policy may block unsigned
-apps entirely, and no user-side step will help. Ask IT to allow it, or use a personal Mac 🙂 
+**Still blocked?** If your Mac is managed by an IT department, security policy may block unsigned apps entirely, and no user-side step will help. Ask IT to allow it, or use a personal Mac 🙂 
 
 
 ## Verify your download (optional)
 
-Each release publishes a SHA-256 checksum (`Find PII.dmg.sha256`). To confirm your download wasn't
-corrupted or tampered with, run:
+Each release publishes a SHA-256 checksum (`Find PII.dmg.sha256`). To confirm your download wasn't corrupted or tampered with, run:
 
 ```
 shasum -a 256 "Find PII.dmg"
 ```
 
-Compare the output to the value on the release page. (Note: because the checksum is hosted on the
-same release as the file, it mainly protects against a corrupted download.
+Compare the output to the value on the release page. (Note: because the checksum is hosted on the same release as the file, it mainly protects against a corrupted download.
 
 ## License & disclaimer
 

@@ -8,6 +8,7 @@ A tiny, fast, macOS app that finds and redacts PII from files. No network access
 
 **Requirements:** macOS 15+
 
+# [Download from here]([url](https://github.com/fzdez/find-pii/releases/latest))
 
 ## What it does
 

@@ -4,7 +4,11 @@ A tiny, fast, macOS app that **finds** and **redacts** PII (Personally Identifia
 
 *Built on Swift, with Claude Code; in a supervised, micromanaged way.*
 
-**[Download from here](https://github.com/fzdez/find-pii/releases/latest)**
+
+**Update coming by 30-June-2026 with revamped filter configuration UI, logic, regex generation.** Backwards compatible. No "check for updates" feature because no network access.
+
+### [Download from here](https://github.com/fzdez/find-pii/releases/latest)
+
 
 **Requirements:** macOS 15+
 

@@ -1,10 +1,10 @@
 # Find PII
 
-[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 ![Platform](https://img.shields.io/badge/platform-macOS%2015%2B-blue)
 ![Swift](https://img.shields.io/badge/Swift-6-orange?logo=swift&logoColor=white)
 ![Dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen)
 ![Network](https://img.shields.io/badge/network-none-lightgrey)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 A tiny,superfast macOS app that **finds** and **redacts** PII (Personally Identifiable Information) in files and pasted text. Redact to write a cleaned copy, or clean up pasted text before copying it out. 
 

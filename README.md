@@ -53,7 +53,7 @@ Lightning fast (screenshot taken on Macbook Pro M5)
 
 ## Accessible
 
-WCAG 2.1 AA *(according to a rigorous Claude test)* with VoiceOver labels, contrast-safe colours, full keyboard navigation, Dynamic Type, reduce-motion support. I'm not used to using a screen reader/voiceover, so please [report issues](https://github.com/fzdez/find-pii/issues)
+WCAG 2.1 AA *(according to a rigorous Claude test)* with VoiceOver labels, contrast-safe colours, full keyboard navigation, Dynamic Type, reduce-motion support. I tested too, but I'm not used to using a screen reader/voiceover, so please [report issues](https://github.com/fzdez/find-pii/issues).
 
 ---
 

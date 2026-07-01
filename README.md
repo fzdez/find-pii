@@ -1,6 +1,5 @@
 # Find PII
 
-[![Release](https://img.shields.io/github/v/release/fzdez/find-pii?label=release)](https://github.com/fzdez/find-pii/releases/latest)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 ![Platform](https://img.shields.io/badge/platform-macOS%2015%2B-blue)
 ![Swift](https://img.shields.io/badge/Swift-6-orange?logo=swift&logoColor=white)

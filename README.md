@@ -100,8 +100,14 @@ The "Open Anyway" button asks for an admin password you may not have. Do this in
 
 2. Open **Terminal** (Applications → Utilities → Terminal), paste and run the command below. ⚠️ If you are unsure, search for what "xattr -dr com.apple.quarantine" does, or ask AI if this command is safe.
 
+If the app is installed to /Users/<username>/Applications
    ```
    xattr -dr com.apple.quarantine ~/Applications/Find\ PII.app
+   ```
+
+If the app is installed to default /Applications
+   ```
+   xattr -dr com.apple.quarantine /Applications/Find\ PII.app
    ```
 
 3. After running that, double-click **Find PII**; it should now open normally.

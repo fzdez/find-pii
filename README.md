@@ -1,4 +1,4 @@
-# Find PII
+# Find PII - Find and Redact PII in files/text and images (macOS)
 
 [![Release](https://img.shields.io/github/v/release/fzdez/find-pii?label=release)](https://github.com/fzdez/find-pii/releases/latest)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
@@ -7,7 +7,7 @@
 ![Dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen)
 ![Network](https://img.shields.io/badge/network-none-brightgreen)
 
-A tiny, superfast macOS app that **finds** and **redacts** PII (Personally Identifiable Information) in files and pasted text. Clean up PII from your files and clipboard, before sharing.
+A tiny, superfast macOS app that **finds** and **redacts** PII (Personally Identifiable Information) in files, images and the clipboard; before sharing on.
 
 No data can leave your device; the app has no network access, and no third party dependencies or libraries. 
 

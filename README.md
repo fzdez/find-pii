@@ -7,7 +7,7 @@
 ![Dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen)
 ![Network](https://img.shields.io/badge/network-none-brightgreen)
 
-A tiny, superfast macOS app that **finds** and **redacts** PII (Personally Identifiable Information) in files, images and the clipboard; before sharing on.
+A tiny, superfast macOS app that **finds** and **redacts** PII (Personally Identifiable Information) in files, images and the clipboard; before you share / upload it.
 
 No data can leave your device; the app has no network access, and no third party dependencies or libraries. 
 
